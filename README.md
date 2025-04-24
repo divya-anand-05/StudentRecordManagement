@@ -29,8 +29,10 @@ This is a simple yet functional **Student Record Management System** developed i
 
 StudentRecordManagement/ 
 
-├── Program.cs 
-├── Database Table: Students 
+├── Program.cs
+
+├── Database Table: Students
+
 └── README.md 
 
 
@@ -41,7 +43,7 @@ StudentRecordManagement/
 1. **Clone this repo**  
    ```bash
    git clone https://github.com/divya-anand-05/StudentRecordManagement.git
-```
+
 
 2.**Open in Visual Studio**
 
