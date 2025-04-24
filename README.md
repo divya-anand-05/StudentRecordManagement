@@ -52,6 +52,7 @@ StudentRecordManagement/
 3.**Set up your SQL Server database**
 Run this script in SSMS:
 
+```sql
 CREATE DATABASE StudentDB;
 
 GO
@@ -71,6 +72,7 @@ CREATE TABLE Students (
     Marks INT
 
 );
+```
 
 4.**Update your connection string in Program.cs**
 Replace with your correct local SQL connection:
