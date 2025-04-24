@@ -53,14 +53,23 @@ StudentRecordManagement/
 Run this script in SSMS:
 
 CREATE DATABASE StudentDB;
+
 GO
+
 USE StudentDB;
+
 CREATE TABLE Students (
+
     StudentID INT PRIMARY KEY IDENTITY,
+    
     Name NVARCHAR(100),
+    
     RollNo NVARCHAR(50),
+    
     Department NVARCHAR(50),
+    
     Marks INT
+
 );
 
 4.**Update your connection string in Program.cs**
@@ -85,8 +94,11 @@ Student Record Management System
 ## 👩‍💻 Developer
 
 Divyadharshini Anandhakumar
+
 Aspiring Web & .NET Developer
+
 📍 Dindigul, Tamil Nadu
+
 📧 divyadharshinianandhakumar@gmail.com
 
     🔗 GitHub
